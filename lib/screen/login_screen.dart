@@ -9,7 +9,8 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   @override
-  Widget build(BuildContext context) {   // 
+  Widget build(BuildContext context) {
+    //
     return Scaffold(
       appBar: AppBar(
         title: const Text('Login'),
@@ -20,9 +21,9 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             TextButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/home');
+                Navigator.pushNamed(context, '/');
               },
-              child: const Text('Login'),
+              child: const Text('Login1234'),
             ),
           ],
         ),
